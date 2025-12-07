@@ -33,16 +33,16 @@
 # m()
 
 
-def sal_logger(abc):
-    def extralogic():
-        print("beforu sal is 25000")
-        abc("ammu",25000)
-    return extralogic
+# def sal_logger(abc):
+#     def extralogic():
+#         print("beforu sal is 25000")
+#         abc("ammu",25000)
+#     return extralogic
 
-def sal_incre(name,salary):
-    sal=salary
-    name=name
-    increemntedsal=sal * 0.10 
-    print(increemntedsal,"after 10% of incrment")
-sal_logger(sal_incre)
-a()
+# def sal_incre(name,salary):
+#     sal=salary
+#     name=name
+#     increemntedsal=sal * 0.10 
+#     print(increemntedsal,"after 10% of incrment")
+# sal_logger(sal_incre)
+# a()
